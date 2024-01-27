@@ -77,6 +77,7 @@ class HoroscopeFragment : Fragment() {
             Sagittarius -> HoroscopeType.Sagittarius
             Scorpio -> HoroscopeType.Scorpio
             Taurus -> HoroscopeType.Taurus
+            Virgo -> HoroscopeType.Virgo
         }
         findNavController().navigate(
             HoroscopeFragmentDirections.actionHoroscopeFragmentToDetailActivity(type)

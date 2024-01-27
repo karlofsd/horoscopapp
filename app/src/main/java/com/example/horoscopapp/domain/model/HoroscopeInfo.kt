@@ -14,4 +14,5 @@ sealed class HoroscopeInfo(val img: Int, val name: Int){
     object Capricorn: HoroscopeInfo(R.drawable.capricornio, R.string.capricorn)
     object Sagittarius: HoroscopeInfo(R.drawable.sagitario, R.string.sagittarius)
     object Aquarius: HoroscopeInfo(R.drawable.aquario, R.string.aquarius)
+    object Virgo: HoroscopeInfo(R.drawable.virgo, R.string.virgo)
 }

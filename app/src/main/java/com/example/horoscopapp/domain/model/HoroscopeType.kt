@@ -11,5 +11,6 @@ enum class HoroscopeType() {
     Leo,
     Capricorn,
     Sagittarius,
-    Aquarius
+    Aquarius,
+    Virgo
 }

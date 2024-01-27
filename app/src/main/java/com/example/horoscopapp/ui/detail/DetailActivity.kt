@@ -10,17 +10,7 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.navArgs
 import com.example.horoscopapp.R
 import com.example.horoscopapp.databinding.ActivityDetailBinding
-import com.example.horoscopapp.domain.model.HoroscopeType.Aquarius
-import com.example.horoscopapp.domain.model.HoroscopeType.Aries
-import com.example.horoscopapp.domain.model.HoroscopeType.Cancer
-import com.example.horoscopapp.domain.model.HoroscopeType.Capricorn
-import com.example.horoscopapp.domain.model.HoroscopeType.Gemini
-import com.example.horoscopapp.domain.model.HoroscopeType.Leo
-import com.example.horoscopapp.domain.model.HoroscopeType.Libra
-import com.example.horoscopapp.domain.model.HoroscopeType.Pisces
-import com.example.horoscopapp.domain.model.HoroscopeType.Sagittarius
-import com.example.horoscopapp.domain.model.HoroscopeType.Scorpio
-import com.example.horoscopapp.domain.model.HoroscopeType.Taurus
+import com.example.horoscopapp.domain.model.HoroscopeType.*
 import com.example.horoscopapp.ui.detail.DetailState.Error
 import com.example.horoscopapp.ui.detail.DetailState.Loading
 import com.example.horoscopapp.ui.detail.DetailState.Success
@@ -81,6 +71,7 @@ class DetailActivity : AppCompatActivity() {
             Capricorn -> R.drawable.detail_capricorn
             Sagittarius -> R.drawable.detail_sagittarius
             Aquarius -> R.drawable.detail_aquarius
+            Virgo -> R.drawable.detail_virgo
         }
         binding.ivDetail.setImageResource(drawable)
     }
