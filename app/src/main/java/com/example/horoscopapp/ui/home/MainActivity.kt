@@ -18,10 +18,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        initUI()
     }
 
     private fun initUI(){
-
+        initNavigation()
     }
 
     private fun initNavigation(){

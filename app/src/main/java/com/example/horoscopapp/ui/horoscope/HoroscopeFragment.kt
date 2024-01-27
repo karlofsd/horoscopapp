@@ -37,7 +37,7 @@ class HoroscopeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentHoroscopeBinding.inflate(layoutInflater)
+        _binding = FragmentHoroscopeBinding.inflate(inflater)
         return binding.root
     }
 
